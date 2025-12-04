@@ -1,0 +1,288 @@
+{
+  "patients": [
+    {
+      "id": "100234",
+      "name": "Jane Doe",
+      "role": "Senior Claims Analyst",
+      "department": "Finance",
+      "location": "Minnesota",
+      "age": 49,
+      "gender": "Female",
+      "riskSegment": "High",
+      "riskScore": 0.82,
+      "primaryConditions": [
+        "Type 2 Diabetes",
+        "Hypertension"
+      ],
+      "secondaryConditions": [
+        "Hyperlipidemia",
+        "Obesity"
+      ],
+      "lastUpdated": "2025-10-12",
+      "sdohFlags": ["Food", "Housing", "Financial"],
+      "engagementStatus": "At Risk",
+      "charlsonComorbidityIndex": 3,
+      "cmiRisk": "High",
+      "cmiExplanation": "High case-mix intensity driven by poorly controlled diabetes, hypertension, and metabolic risk factors.",
+      "hccRiskScore": 1.95,
+      "hccRiskExplanation": "Multiple metabolic HCC categories (diabetes with complications, hypertensive heart disease) raise expected utilization.",
+      "future6mCost": 32000.0,
+      "future12mCost": 64000.0,
+      "yearlySpending": {
+        "years": [2024, 2025],
+        "costs": [18500.25, 34120.75]
+      },
+      "clinicalSummary": [
+        "Very high clinical risk driven by poorly controlled diabetes (A1c 9.1%) and hypertension.",
+        "3 ED visits and 1 inpatient stay in the past 12 months, several potentially avoidable.",
+        "Medication adherence below 70% for metformin and ACE inhibitor."
+      ],
+      "careGaps": [
+        "Overdue for diabetic retinal exam (> 18 months).",
+        "No documented annual wellness visit this year.",
+        "No LDL panel in the last 12 months."
+      ],
+      "utilizationSummary": [
+        "3 ED visits in the past 12 months (2 flagged as ambulatory care–sensitive).",
+        "1 inpatient admission for chest pain observation."
+      ],
+      "sdohSummary": [
+        "Moderate food insecurity; reports difficulty affording healthy meals.",
+        "Intermittent transportation barriers to in-person visits.",
+        "High out-of-pocket costs for medications.",
+        "Living in a high-rent area with limited affordable housing options."
+      ],
+      "communityResources": [
+        {
+          "name": "Second Harvest Heartland",
+          "description": "Food assistance and pantry locator for Minnesota residents.",
+          "city": "Twin Cities",
+          "url": "https://www.2harvest.org/"
+        },
+        {
+          "name": "United Way 211 Housing Resources",
+          "description": "Housing stability counseling and emergency rental assistance information.",
+          "city": "Minnesota",
+          "url": "https://www.211unitedway.org/"
+        },
+        {
+          "name": "Metro Transit Discount Programs",
+          "description": "Reduced-fare transit options for low-income riders.",
+          "city": "Minneapolis–Saint Paul",
+          "url": "https://www.metrotransit.org/"
+        }
+      ],
+      "activePrograms": [
+        "Enrolled in virtual diabetes coaching (low engagement).",
+        "Eligible for pharmacy consultation and social work outreach."
+      ],
+      "nextBestActions": [
+        "Outbound call from care manager within 7 days to re-engage in diabetes coaching.",
+        "Schedule telehealth PCP follow-up within 14 days; coordinate labs and retinal exam referral.",
+        "Connect to community food support and transportation resources."
+      ],
+      "actionableRecommendations": [
+        "Tighten glycemic control with medication titration and frequent follow-up.",
+        "Enroll in a structured nutrition program with grocery cost supports.",
+        "Establish transportation assistance (rideshare vouchers or community van) for in-person visits."
+      ]
+    },
+    {
+      "id": "100235",
+      "name": "John Smith",
+      "role": "Customer Support Specialist",
+      "department": "Operations",
+      "location": "Minnesota",
+      "age": 44,
+      "gender": "Male",
+      "riskSegment": "Moderate",
+      "riskScore": 0.61,
+      "primaryConditions": [
+        "COPD"
+      ],
+      "secondaryConditions": [],
+      "lastUpdated": "2025-10-08",
+      "sdohFlags": ["Transportation"],
+      "engagementStatus": "Engaged",
+      "charlsonComorbidityIndex": 2,
+      "cmiRisk": "Moderate",
+      "cmiExplanation": "Moderate case-mix driven by COPD with intermittent exacerbations.",
+      "hccRiskScore": 1.4,
+      "hccRiskExplanation": "Chronic lung disease risk with smoking history drives above-average expected cost.",
+      "future6mCost": 18000.0,
+      "future12mCost": 36000.0,
+      "yearlySpending": {
+        "years": [2024, 2025],
+        "costs": [12050.0, 17490.4]
+      },
+      "clinicalSummary": [
+        "Moderate clinical risk driven by COPD with intermittent exacerbations.",
+        "Inhaler adherence ~80%; no recent hospitalizations.",
+        "Smoking cessation counseling documented, still actively smoking."
+      ],
+      "careGaps": [
+        "Overdue for annual influenza vaccination.",
+        "No pulmonology follow-up in the last 18 months."
+      ],
+      "utilizationSummary": [
+        "2 ED visits in the past 24 months for shortness of breath.",
+        "No inpatient admissions in the past 12 months."
+      ],
+      "sdohSummary": [
+        "Lives alone with limited social support.",
+        "Occasional difficulty arranging transportation to specialty appointments."
+      ],
+      "communityResources": [
+        {
+          "name": "Transit Assistance Program (TAP) – Metro Transit",
+          "description": "Discounted transit fares for eligible low-income riders.",
+          "city": "Twin Cities",
+          "url": "https://www.metrotransit.org/tap"
+        }
+      ],
+      "activePrograms": [
+        "Enrolled in digital COPD education program.",
+        "Eligible for smoking cessation program with incentives."
+      ],
+      "nextBestActions": [
+        "Proactive outreach to enroll in smoking cessation program with rewards.",
+        "Schedule pulmonology consult and spirometry within 3 months.",
+        "Set standing orders for annual flu and pneumonia vaccines."
+      ],
+      "actionableRecommendations": [
+        "Enroll in an intensive smoking cessation pathway with pharmacotherapy support.",
+        "Consider home-based spirometry or remote monitoring for symptom trends.",
+        "Coordinate transportation support for pulmonology and smoking cessation visits."
+      ]
+    },
+    {
+      "id": "1018305202",
+      "name": "Member_1006",
+      "role": "Plan Member",
+      "department": "N/A",
+      "location": "Minnesota",
+      "age": 55,
+      "gender": "Female",
+      "riskSegment": "High",
+      "riskScore": 0.95,
+      "primaryConditions": [
+        "Alcohol-related cirrhosis / hepatic failure",
+        "Portal hypertension with esophageal varices",
+        "Acute kidney injury / end-stage renal disease"
+      ],
+      "secondaryConditions": [
+        "History of prosthetic aortic valve (post replacement)",
+        "Atrial fibrillation",
+        "Thrombocytopenia / coagulopathy",
+        "History of sepsis / recurrent severe infections"
+      ],
+      "lastUpdated": "2025-10-20",
+      "sdohFlags": ["Financial", "Transportation"],
+      "engagementStatus": "High Utilizer",
+      "charlsonComorbidityIndex": 6,
+      "cmiRisk": "High",
+      "cmiExplanation": "High case-mix intensity driven by severe liver disease (cirrhosis/hepatic failure), renal failure/ESRD and multiple ICU-level inpatient episodes (sepsis).",
+      "hccRiskScore": 2.8,
+      "hccRiskExplanation": "Multiple high-weight HCC categories for decompensated cirrhosis, ESRD and cardiac comorbidities drive substantially elevated resource needs.",
+      "copdRiskScore": 0.05,
+      "copdRiskExplanation": "No clear COPD diagnosis codes in claims; low estimated COPD risk.",
+      "edUseRisk": 0.9,
+      "edUseExplanation": "Multiple ED-level evaluation/critical care claims in April–June 2025 and repeated urgent evaluations indicate very high near-term ED utilization risk.",
+      "inpatientProbability": 0.95,
+      "inpatientExplanation": "Recent sustained inpatient stays including many ICU-level claims in May–June 2025 suggest a very high probability of further inpatient use in near term, particularly for complications of cirrhosis and renal issues.",
+      "heartDiseaseProbability": 0.7,
+      "heartDiseaseExplanation": "Prosthetic aortic valve (2024 replacement) plus atrial fibrillation and hypertensive heart disease indicate substantial ongoing cardiovascular care needs and risk of heart-related complications.",
+      "future6mCost": 75000.0,
+      "future12mCost": 150000.0,
+      "yearlySpending": {
+        "years": [2024, 2025],
+        "costs": [57807.84, 496647.48]
+      },
+      "clinicalSummary": [
+        "55-year-old with prosthetic aortic valve and history of aortic valve replacement (2024). In 2025 the member experienced a massive inpatient episode cluster for sepsis and hepatic failure related to alcoholic cirrhosis, with variceal bleeding, melena and spontaneous bacterial peritonitis.",
+        "High recent inpatient and ED utilization with substantial one-time and ongoing multi-organ failure risks (liver failure, renal failure/ESRD, coagulopathy)."
+      ],
+      "careGaps": [
+        "Need for tightly coordinated hepatology, nephrology and cardiology follow-up across care settings.",
+        "Alcohol use disorder treatment and relapse-prevention plan not clearly documented.",
+        "Requires structured transitional care and explicit goals-of-care planning."
+      ],
+      "utilizationSummary": [
+        "High recent inpatient and ED utilization including prolonged ICU stays in May–June 2025.",
+        "Multiple critical-care and high-acuity encounters related to cirrhosis, sepsis and renal failure."
+      ],
+      "keyTrends": [
+        "Large spike in 2025 spending driven by a concentrated cluster of high-cost inpatient claims for sepsis and hepatic failure (May–June 2025).",
+        "Ongoing complexity: multi-organ involvement (liver failure, renal failure/ESRD, coagulopathy, GI bleeding, atrial fibrillation) driving repeated high-acuity care.",
+        "High acute care intensity (ED + ICU + multiple high-cost procedural claims) with associated readmission and near-term mortality risk."
+      ],
+      "statisticalInsights": [
+        "2025 total spend (~$496,647) is ~8.6x the 2024 spend (~$57,808); the majority of 2025 costs are attributable to inpatient sepsis/hepatic failure episodes in May–June 2025.",
+        "Top single inpatient claim observed exceeds $200,000 for sepsis-related ICU care, within a cluster of multi-day high-intensity stays.",
+        "Multiple high-dollar claims in the same hospitalization period (several >$10k, several >$30k) are consistent with prolonged ICU stay and complex procedures."
+      ],
+      "costDrivers": [
+        "Major inpatient sepsis episodes and associated ICU care, including a large line-item sepsis-related claim in May 2025.",
+        "Complications of alcoholic cirrhosis: hepatic failure, spontaneous bacterial peritonitis, portal hypertension, variceal bleeding and repeated paracenteses.",
+        "Acute kidney injury / ESRD-related inpatient care and critical care billing, including repeated dialysis and renal support codes.",
+        "Procedures and imaging during the hospitalization cluster (CT abdomen/pelvis, endoscopy/bleeding control, multiple critical care and procedural codes).",
+        "Baseline costs for valve replacement and cardiac follow-up in 2024."
+      ],
+      "communityResources": [
+        {
+          "name": "Minnesota Assistance Council for Veterans (MACV) – Financial & Housing Support",
+          "description": "Helps eligible Minnesotans with housing stability and financial counseling.",
+          "city": "Minnesota",
+          "url": "https://www.mac-v.org/"
+        },
+        {
+          "name": "United Way 211 – Financial & Social Services",
+          "description": "Telephone and web-based navigation to local financial, food, and housing supports.",
+          "city": "Minnesota",
+          "url": "https://www.211unitedway.org/"
+        },
+        {
+          "name": "Nonemergency Medical Transportation (NEMT) – Minnesota DHS",
+          "description": "Transportation benefit for patients needing rides to covered medical services.",
+          "city": "Minnesota",
+          "url": "https://mn.gov/dhs/"
+        }
+      ],
+      "actionableRecommendations": [
+        "Immediate assignment to complex care / case management to coordinate hepatology, nephrology, cardiology, and primary care follow-up.",
+        "Enroll in a liver-disease disease management program (hepatology clinic, variceal surveillance, ascites management, SBP prophylaxis plans).",
+        "Assess and implement alcohol use disorder treatment and relapse-prevention (medication-assisted therapy plus counseling) given alcoholic cirrhosis diagnosis codes.",
+        "Renal follow-up: evaluate need for ongoing dialysis, outpatient nephrology care, and vascular access planning if ESRD persists.",
+        "Medication review and bleeding risk management (thrombocytopenia, varices, anticoagulation for A-fib) to reduce GI bleeding readmissions.",
+        "Transitional care interventions post-discharge (follow-up within 7 days, home health if appropriate) to reduce readmission risk.",
+        "Palliative care / goals-of-care discussion early given advanced liver disease and recurrent critical illness; consider hospice evaluation when appropriate."
+      ],
+      "realWorldEvidence": [
+        {
+          "title": "Hospital readmissions and outcomes in patients with decompensated cirrhosis",
+          "source": "Hepatology",
+          "year": 2020,
+          "url": "https://example.org/hepatology-readmissions-cirrhosis"
+        },
+        {
+          "title": "Impact of alcohol use disorder treatment on outcomes in alcohol-related liver disease",
+          "source": "Journal of Hepatology",
+          "year": 2021,
+          "url": "https://example.org/journal-hepatology-alcohol-treatment"
+        },
+        {
+          "title": "Integrated care pathways for cirrhosis: reducing unplanned admissions and mortality",
+          "source": "Liver International",
+          "year": 2022,
+          "url": "https://example.org/liver-international-integrated-care"
+        },
+        {
+          "title": "Predictors of ICU utilization and cost in end-stage liver disease",
+          "source": "Critical Care Medicine",
+          "year": 2023,
+          "url": "https://example.org/ccm-icu-esld"
+        }
+      ]
+    }
+  ]
+}

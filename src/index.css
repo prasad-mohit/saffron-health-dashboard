@@ -1,0 +1,58 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Setup */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Soft Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(93, 66, 129, 0.85);
+  border-radius: 999px;
+}
+
+/* Glass Mixin (for premium look) */
+.glass {
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Panel fixes */
+.panel {
+  @apply p-5 rounded-2xl border shadow-sm;
+}
+
+/* Chip system */
+.chip {
+  @apply px-4 py-1.5 rounded-full text-xs font-medium border;
+}
+
+/* Table fix */
+table {
+  border-collapse: separate;
+  border-spacing: 0 0.2rem;
+}
